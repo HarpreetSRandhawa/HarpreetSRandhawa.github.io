@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang = "en" class = "animated fadeIn">
+
+<head>
+
+<meta charset = "utf-8">
+<meta http-equiv= "x-ua-compatible" content= "ie=edge">
+<meta name= "viewport" content = "width=device-width, initial-scale=1">
+<title> Harpreet Randhawa </title>
+<link rel = "stylesheet" href = "animate.css" />
+
+</head>
+
+<style>
+
+
+body{
+    margin:0;
+    background-color: #F8F9FB;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+
+
+.container {
+width: 80%; 
+margin: 0 auto;
+}
+
+header {
+  background: #333333;
+}
+
+header::after {
+  content: '';  
+  display: table;
+  clear: both;
+}
+ 
+.logo {
+  float: left;
+  padding: 10px 0;
+  width:6%;
+}
+
+div.topnav{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+nav {
+  float: right;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 69px;
+  padding-top: 26px;
+
+  position: relative;
+}
+
+nav a {
+  color:lightgrey;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+    
+nav a:hover {
+  color: lightgrey;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #374457;
+
+  position: absolute;
+  top: 100%;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  position: relative;
+  text-align: center;   
+}
+ 
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: left;
+   background-color:#333333; 
+   padding: 4px;
+}
+
+</style>
+
+
+
+
+<header>
+<div class="container">
+
+<h1 class="logo"></h1>
+            
+<nav>
+<ul>
+<div class = "topnav">
+    <li> <a href = "home.html"> Home </a> </li>
+    <li> <a href = "resume.html"> Resume </a> </li>
+    <li> <a href = "aboutme.html"> About Me </a> </li>
+    <li> <a href = "contact.html"> Contact </a> </li>
+
+</div>
+
+</ul>   
+</nav>
+</div>  
+
+</header>
+
+<body>
+    
+
+    <img src="resume.pdf"; alt="Resume"; style = "width:100%;">
+
+<div class = "footer">
+<p class = "copyright" style = "color:#696969; font-size:12px;"> Harpreet Randhawa </p>
+<p class = "copyright" style = "color:#696969; font-size:12px;"> Created using HTML & CSS </p>
+     <!-- <p class="centered" style = "color:#C79D6E; font-size:80px; font-family:comic sans ms; ">Welcome To My</p>
+    <p class="centered" style = "margin-left: 20px;  margin-right: 20px;z-index: 9999; color:#C79D6E; font-size:80px; font-family:comic sans ms;"> Website!</p>
+     -->
+    </div>
+
+
+
+
+</body>
+
+</html>
