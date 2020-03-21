@@ -1,4 +1,2 @@
-# harpreetz11.github.io
+# https://harpreetsrandhawa.github.io/home.html
 This is my personal website
-# Harpreet.github.io
-# HarpreetSRandhawa.github.io
