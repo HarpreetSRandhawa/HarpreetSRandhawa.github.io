@@ -1,2 +1,2 @@
 # https://harpreetsrandhawa.github.io/home.html
-This is my personal website
+Personal website created using HTML & CSS
